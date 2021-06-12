@@ -69,7 +69,8 @@ body {
   font-size: 10px;
   background: transparent;
   color: #ffffff;
-  height: 40%;
+  height: 80px;
+  width: 160px;
   resize: none;
 }
 .result img {
