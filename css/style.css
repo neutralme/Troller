@@ -1,0 +1,38 @@
+body {
+  background: #493250;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  border: 2px solid #00FF58;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.container #name, #adj {
+  font-size: xx-large;
+  color: tomato;
+}
+#adj {
+  color: dodgerblue;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+  position: absolute;
+  top: 95%;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+a:hover {
+  transform: scale(1.5);
+}
