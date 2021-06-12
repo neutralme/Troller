@@ -3,7 +3,7 @@ let code = document.getElementsByClassName("text")[0];
 let result = document.getElementById("result");
 let generate = document.getElementById("generate");
 const generateURL = (nameValue, adjValue) => {
-  code.innerText = "http://localhost:7700/index.html?name=" + btoa(document.getElementById("name").value) + "&adj=" + btoa(document.getElementById("adj").value);
+  code.innerText = "https://neutralme.github.io/Troller/generate.html?name=" + btoa(document.getElementById("name").value) + "&adj=" + btoa(document.getElementById("adj").value);
   result.style.display = "block";
 }
 const copyURL = (copyValue) => {
