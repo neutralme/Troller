@@ -24,7 +24,7 @@ body {
 #adj {
   color: dodgerblue;
 }
-a {
+.new {
   color: white;
   text-decoration: none;
   font-variant: small-caps;
@@ -33,7 +33,7 @@ a {
   padding: 8px;
   transition: transform 0.3s;
 }
-a:hover {
+.new:hover {
   transform: scale(1.5);
 }
 .hitCounter {
