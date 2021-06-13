@@ -36,3 +36,10 @@ a {
 a:hover {
   transform: scale(1.5);
 }
+.hitCounter {
+  position: absolute;
+  top: 0px;
+}
+.hitCounter:hover {
+  transform: none;
+}
