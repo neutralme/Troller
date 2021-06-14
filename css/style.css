@@ -16,6 +16,7 @@ body {
   padding: 12px 20px;
   font-weight: bolder;
   color: #ffffff;
+  overflow-y: scroll;
 }
 .container #name, #adj {
   font-size: xx-large;
